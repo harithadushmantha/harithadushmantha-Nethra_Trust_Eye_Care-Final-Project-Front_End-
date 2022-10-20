@@ -2,7 +2,7 @@ import http from '../httpService/httpService';
 //import config from '../utility/config.json';
 import jwtDecode from 'jwt-decode';
 
-const apiUrl ="http://localhost:2001/api/auth"
+const apiUrl ="https://nethraappbackend.herokuapp.com/api/auth";
 const tokenKey = "token";
 
 http.setJwt(getJwt()); //calling the function in http service
