@@ -41,6 +41,10 @@
     "redux-thunk": "^2.3.0",
     "yup": "^0.32.11"
   },
+    "engines" : { 
+    "npm" : "6.12.0",
+    "node" : "12.13.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
